@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\trabajoenclase.dir/objects.a
+C:\mingw-w64\mingw64\bin\ar.exe cr CMakeFiles\trabajoenclase.dir/objects.a @CMakeFiles\trabajoenclase.dir\objects1.rsp
+C:\mingw-w64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\trabajoenclase.dir/objects.a -Wl,--no-whole-archive -o trabajoenclase.exe -Wl,--out-implib,libtrabajoenclase.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\trabajoenclase.dir\linklibs.rsp
